@@ -9,7 +9,7 @@ import time
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--incognito')
-driver = webdriver.Chrome("./../chromedriver.exe", chrome_options=chrome_options)
+driver = webdriver.Chrome("./chromedriver.exe", chrome_options=chrome_options)
 driver.get("https://orteil.dashnet.org/cookieclicker/")
 
 try:
