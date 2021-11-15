@@ -8,12 +8,12 @@ Let's check your chrome navigator version :
 Consequently, you have to download the right chromedriver in the follow link :
 > https://chromedriver.chromium.org/downloads
   
-Move it in the CookieClicker folder
+- Move it in the CookieClicker folder
   
-Install pip and python depending on your OS
+- Install pip and python depending on your OS
   
-Install Selenium :
+- Install Selenium :
 > pip install Selenium
 
-Execute the program :
+- Execute the program :
 > python3 cookie_clicker.py
