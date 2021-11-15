@@ -1,5 +1,7 @@
 # CookieClicker
 
+![cookie](https://user-images.githubusercontent.com/65111947/141861413-82eaf92e-50a2-470c-b88c-7a5e8066d7e5.gif)
+
 ### Usage:
 Let's check your chrome navigator version :
 
