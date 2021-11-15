@@ -36,9 +36,15 @@ def prices_list(prices, upgrades):
     for price in prices:
         if (i == len(upgrades)):
             return (new_list)
-        new_list.append(int(driver.find_element_by_id("productPrice" + str(i)).text))
+        new_list.append(int(real_int(driver.find_element_by_id("productPrice" + str(i)).text)))
         i+=1
     return (new_list)
+
+def real_int(nb):
+    numeric_filter = filter(str.isdigit, nb)
+    numeric_string = "".join(numeric_filter)
+    print(numeric_string)
+    return (numeric_string)
 
 def name_of_upgrade():
     i = 0
