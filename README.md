@@ -1,6 +1,6 @@
 # CookieClicker
 
-![cookie](https://user-images.githubusercontent.com/65111947/141861413-82eaf92e-50a2-470c-b88c-7a5e8066d7e5.gif)
+![cookiez](https://user-images.githubusercontent.com/65111947/141861789-c0d2b179-712e-4c0d-9c17-ce35e21d816d.gif)
 
 ### Usage:
 Let's check your chrome navigator version :
