@@ -13,7 +13,8 @@ Consequently, you have to :
 > https://chromedriver.chromium.org/downloads
   
 - Move it in the CookieClicker folder
-  ![path](https://user-images.githubusercontent.com/65111947/141865863-69fb5003-ff5a-4153-af82-849687e37976.PNG)
+
+![path](https://user-images.githubusercontent.com/65111947/141865863-69fb5003-ff5a-4153-af82-849687e37976.PNG)
 
 - Install pip and python depending on your OS
   
