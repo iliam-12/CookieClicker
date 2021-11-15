@@ -12,7 +12,7 @@ Move it in the CookieClicker folder
 Install pip and python depending on your OS
   
 Install Selenium :
-    pip install Selenium
-  
+    `pip install Selenium`
+
 Execute the program :
-    python3 cookie_clicker.py
+    `python3 cookie_clicker.py`
