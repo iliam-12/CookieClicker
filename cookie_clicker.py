@@ -68,7 +68,7 @@ while 1:
     double_list = fusion_lists(upgrades, prices)
     i = 0
     next_upgrade = min(double_list, key=lambda x: x[0])
-    if (int(cookies.text.split(" ")[0]) >= next_upgrade[0]):
+    if (int(real_int(cookies.text.split(" ")[0])) >= next_upgrade[0]):
         actions.click(driver.find_element_by_id(next_upgrade[1]))
     actions.click(buzzer)
     actions.perform()
