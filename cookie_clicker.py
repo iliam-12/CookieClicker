@@ -22,10 +22,6 @@ except TimeoutException:
 
 driver.implicitly_wait(10)
 
-cursor_upgrade = driver.find_element_by_id("product0")
-grandma_upgrade = driver.find_element_by_id("product1")
-cursor_price = driver.find_element_by_id("productPrice0")
-grandma_price = driver.find_element_by_id("productPrice1")
 cookies = driver.find_element_by_id("cookies")
 actions = ActionChains(driver)
 buzzer = driver.find_element_by_id("bigCookie")
@@ -49,7 +45,7 @@ def name_of_upgrade():
     i = 0
     new_list = []
     for name in driver.find_element_by_id("products").text.split():
-        if (name == "???"):
+        if (name == "???" or name == "Cursor" or name == "Grandma" or name == "Farm"):
             new_list.append("productName" + str(i))
             i+=1
     return (new_list)
