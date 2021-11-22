@@ -1,5 +1,7 @@
 # CookieClicker
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 ![cookie](https://user-images.githubusercontent.com/65111947/141861887-366855b4-6135-4a23-8d2c-d261905893d9.gif)
 
 ### Usage:
